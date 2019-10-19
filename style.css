@@ -103,9 +103,10 @@ a:hover, a:focus {
     line-height: 1.8em;
 }
 
-#skills {
+#skills, #projects {
 	margin-bottom: 5em;
 }
+
 
 @media (min-width: 48em) {
     .content {
