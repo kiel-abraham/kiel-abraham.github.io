@@ -20,8 +20,6 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 
-
-
 .pure-img-responsive {
 	max-width: 50%;
 	border-radius: 50%;
@@ -75,6 +73,14 @@ a:hover, a:focus {
 	font-size: 2.8em;
 }
 
+.fab:hover {
+	color: #444;
+}
+
+.pure-button .fab {
+	font-size: 1em;
+}
+
 .title, .time, .fab {
 	color: #aaa;
 }
@@ -95,6 +101,10 @@ a:hover, a:focus {
     font-family: Georgia, "Cambria", serif;
     color: #444;
     line-height: 1.8em;
+}
+
+#skills {
+	margin-bottom: 5em;
 }
 
 @media (min-width: 48em) {
