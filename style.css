@@ -1,40 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed&display=swap');
 
-/*
-body {
-	margin: 0;
-	font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-*/
-
-h1, h2, h3 {
-	font-family: "Saira Extra Condensed";
-}
-
-footer {
-	margin-bottom: 5em;
-}
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+
+h1, h2, h3 {
+	font-family: "Saira Extra Condensed";
+}
+
 a {
     text-decoration: none;
     color: rgb(61, 146, 201);
 }
-a:hover,
-a:focus {
+
+a:hover, a:focus {
     text-decoration: underline;
 }
+
+
 
 .pure-img-responsive {
 	max-width: 50%;
@@ -60,9 +46,11 @@ a:focus {
 .brand-title, .brand-tagline {
     margin: 0;
 }
+
 .brand-title, .section-title, .title {
     text-transform: uppercase;
 }
+
 .brand-tagline {
     font-weight: 300;
 	color: rgb(176, 202, 219);
@@ -83,19 +71,26 @@ a:focus {
     padding-bottom: 2em;
 }
 
-.title, .time {
+.fab {
+	font-size: 2.8em;
+}
+
+.title, .time, .fab {
 	color: #aaa;
 }
+
 .title {
     border-bottom: 1px solid #eee;
 	padding: 0.4em 0;
 	font-size: 1.4em;
     letter-spacing: 0.1em;
 }
+
 .time {
 	font-size: 90%;
 	margin: 0;
 }
+
 .description {
     font-family: Georgia, "Cambria", serif;
     color: #444;
@@ -107,12 +102,15 @@ a:focus {
         padding: 2em 3em 0;
         margin-left: 25%;
 	}
+	
     .header {
         margin: 2em;
 	}
+	
 	.pure-img-responsive {
 		max-width: 100%;
 	}
+	
     .sidebar {
         position: fixed;
         top: 0;
