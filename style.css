@@ -142,4 +142,8 @@ a:hover, a:focus {
 	.pure-img-responsive {
 		max-width: 150px;
 	}
+	
+	#experience > div:first-of-type, #experience > div:last-of-type {
+		margin-bottom: 6em;
+	}
 }
