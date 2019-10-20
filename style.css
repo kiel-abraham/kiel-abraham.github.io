@@ -13,7 +13,7 @@ h1, h2, h3 {
 
 a {
     text-decoration: none;
-    color: rgb(61, 146, 201);
+    color: #3d92c9;
 }
 
 a:hover, a:focus {
@@ -37,7 +37,7 @@ a:hover, a:focus {
 }
 
 .sidebar {
-    background: rgb(61, 79, 93);
+    background: #3d4f5d;
     color: #fff;
 }
 
@@ -51,7 +51,7 @@ a:hover, a:focus {
 
 .brand-tagline {
     font-weight: 300;
-	color: rgb(176, 202, 219);
+	color: #b0cadb;
 	line-height: 1.2;
 }
 
@@ -66,7 +66,7 @@ a:hover, a:focus {
 }
 
 .job {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .fab {
@@ -104,7 +104,16 @@ a:hover, a:focus {
 }
 
 #skills, #projects {
-	margin-bottom: 5em;
+	margin-bottom: 3em;
+}
+
+.skills-list {
+	padding: 0;
+}
+
+.skills-list > li {
+	list-style: none;
+	display: inline;
 }
 
 
@@ -127,4 +136,10 @@ a:hover, a:focus {
         top: 0;
         bottom: 0;
     }
+}
+
+@media print {
+	.pure-img-responsive {
+		max-width: 150px;
+	}
 }

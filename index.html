@@ -36,28 +36,38 @@
        
        <section id="skills">
 			<h2 class="section-title">Skills</h2>
-			<i class="fab fa-html5" title="HTML5"></i>
-			<i class="fab fa-css3-alt" title="CSS3"></i>
-			<i class="fab fa-js-square" title="Javascript"></i>
-			<i class="fab fa-react" title="React"></i>
-			<i class="fab fa-php" title="PHP"></i>
-			<i class="fab fa-aws" title="Amazon Web Services"></i>
-			<i class="fab fa-jira" title="Jira"></i>
-			<i class="fab fa-confluence" title="Confluence"></i>
-			<i class="fab fa-bitbucket" title="Bitbucket"></i>
-			<i class="fab fa-github" title="Github"></i>
-			<i class="fab fa-git-alt" title="Git"></i>
-			<i class="fab fa-cpanel" title="cPanel"></i>
+			<ul class="skills-list">
+				<li><i class="fab fa-html5" title="HTML5"></i></li>
+				<li><i class="fab fa-css3-alt" title="CSS3"></i></li>
+				<li><i class="fab fa-js-square" title="Javascript"></i></li>
+				<li><i class="fab fa-react" title="React"></i></li>
+				<li><i class="fab fa-php" title="PHP"></i></li>
+				<li><i class="fab fa-aws" title="Amazon Web Services"></i></li>
+				<li><i class="fab fa-jira" title="Jira"></i></li>
+				<li><i class="fab fa-confluence" title="Confluence"></i></li>
+				<li><i class="fab fa-bitbucket" title="Bitbucket"></i></li>
+				<li><i class="fab fa-github" title="Github"></i></li>
+				<li><i class="fab fa-cpanel" title="cPanel"></i></li>
+			</ul>
+			
+			
 		</section>
        
         <section id="experience">
             <h2 class="section-title">Experience</h2>
             
+            <div class="job">
+				<h3 class="title">Freelance</h3>
+				<h4>Web Developer</h4>
+				<p class="time">Ongoing</p>
+				<p class="description">I build websites for small businesses in my spare time (<a href="https://www.thkr.com.au" target="_blank" rel="noopener noreferrer">www.thkr.com.au</a>). Depending on what is needed I have built sites with Wordpress, Gatsby, coded with straight HTML and Bootstrap or drag and drop builders.</p>
+			</div>
+            
 			<div class="job">
 				<h3 class="title">Neto E-Commerce</h3>
 				<h4>Team Leader / Application Support</h4>
 				<p class="time">April 2017 - Current</p>
-				<p class="description">I run a team of 14 staff who support our online retailers using the eCommerce platform. I continually train staff in front end design and how to customise customer sites by editing HTML and CSS theme files. We support everything from API troubleshooting to DNS changes when publishing web-stores.</p>
+				<p class="description">I am currently a team leader of 14 staff who support our online retailers using the eCommerce platform. I train staff in front end design to help customers using the platform to better understand the HTML and CSS setup of their website themes. We also work with the development teams via Jira and Confluence to track tasks and projects. We support everything from API troubleshooting to DNS changes on AWS Route53 when publishing web-stores.</p>
 			</div>
 			
 			<div class="job">
@@ -74,34 +84,27 @@
 				<p class="description">First point of contact for customers with IT issues. Working to resolve issues in a timely manner and responding via phone and email. Assisting with training and ongoing support of new team members while ensuring a high level of customer retention and satisfaction.</p>
 			</div>
 			
-			<div class="job">
-				<h3 class="title">Freelance</h3>
-				<h4>Web Developer</h4>
-				<p class="time">Ongoing</p>
-				<p class="description">Working on projects with Wordpress, Gatsby and others to help people develop and publish websites. This includes my own offering for small business websites run on www.thkr.com.au</p>
-			</div>
-			
 		</section>
             
         <section id="projects">
             <h2 class="section-title">Projects</h2>
             
 			<div class="job">
-				<h3 class="title">THKR App</h3>
+				<h3 class="title">THKR App (work in progress)</h3>
 				<p class="time">Private repo</p>
-				<p class="description">CMS backend I was building with React and Firebase to administer Gatsby static sites that would then continuously deploy with Netlify.</p>
+				<p class="description">I was finding that I was really enjoying building sites with Gatsby. The result is a super fast static site and I get to build it with React! What I was finding though was I kept building very similar setups. I wanted to build a management system that would allow me to speed up the process and then just populate content (or possibly just open it up for users). I wanted to build it in React and make it scalable so I built it with Google Firebase. It has been a great learning project as well because with Firebase I get to run remote auth, database and functions. I then hooked it up to Netlify via their API so that I could have continuous deployment when content is updated and keep it automated. The repo is currently private but happy provide access to code if desired.</p>
 			</div>
 			
 			<div class="job">
 				<h3 class="title">Helpful Chooser</h3>
 				<a class="time" href="https://github.com/kiel-abraham/chooser" target="_blank" rel="noopener noreferrer">Github repo</a>
-				<p class="description">Simple React app to help make decisions easier. Enter a few options and let the app select for you.</p>
+				<p class="description">One day I was having a lot of trouble choosing between three items. A coin flip just wasn't going to work. After that I decided to build a simple React app to help make decisions easier. This app lets a user enter a few options and then click choose to have a decision.</p>
 			</div>
 			
 			<div class="job">
 				<h3 class="title">Go Listen Live</h3>
 				<a class="time" href="https://github.com/kiel-abraham/go-listen-live" target="_blank" rel="noopener noreferrer">Github repo</a>
-				<p class="description">PHP project from development course. Was a web application to find nearby live music events.</p>
+				<p class="description">I love playing music with my band and when I was doing my development course I had a project where I needed to hit some points. It had to be in PHP, have some CRUD capability and use Geolocation. I built a live gig event system. It would allow users to find gigs nearby and also had the functionality for admins to create and edit events. It was a great project and maybe one day I'll rebuild it with React.</p>
 			</div>
 			
 		</section>
