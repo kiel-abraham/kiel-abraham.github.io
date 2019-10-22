@@ -30,10 +30,13 @@ a:hover, a:focus {
     padding: 0;
 }
 
+.content, .header {
+	padding: 2em 1em 0;
+}
+
 .header {
     text-align: center;
     top: auto;
-    margin: 3em auto;
 }
 
 .sidebar {
@@ -53,10 +56,6 @@ a:hover, a:focus {
     font-weight: 300;
 	color: #b0cadb;
 	line-height: 1.2;
-}
-
-.content {
-    padding: 2em 1em 0;
 }
 
 .section-title {
@@ -117,7 +116,7 @@ a:hover, a:focus {
 }
 
 
-@media (min-width: 48em) {
+@media (min-width: 64em) {
     .content {
         padding: 2em 3em 0;
         margin-left: 25%;
