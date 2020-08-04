@@ -52,6 +52,10 @@ a:hover, a:focus {
     text-transform: uppercase;
 }
 
+#experience {
+	margin-bottom: 4rem;
+}
+
 .brand-tagline {
     font-weight: 300;
 	color: #b0cadb;
@@ -65,7 +69,7 @@ a:hover, a:focus {
 }
 
 .job {
-    padding-bottom: 1em;
+/*    padding-bottom: 1em;*/
 }
 
 .fab {
@@ -87,7 +91,7 @@ a:hover, a:focus {
 .title {
     border-bottom: 1px solid #eee;
 	padding: 0.4em 0;
-	font-size: 1.4em;
+	font-size: 1.3em;
     letter-spacing: 0.1em;
 }
 
@@ -142,7 +146,13 @@ a:hover, a:focus {
 		max-width: 150px;
 	}
 	
-	#experience > div:first-of-type, #experience > div:last-of-type {
-		margin-bottom: 6em;
+	#experience {
+		margin-bottom: 15rem;
 	}
+	
+/*	#experience > div:first-of-type,
+	#experience > div:last-of-type {
+		margin-bottom: 8em;
+	}
+*/
 }
